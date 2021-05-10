@@ -9,7 +9,8 @@ namespace BenchmarkLinqPerformance
         {
             Console.WriteLine("START");
 
-            var summary = BenchmarkRunner.Run<LinqTests>();
+            //var summary = BenchmarkRunner.Run<LinqTests>();
+            var summary = BenchmarkRunner.Run<ArraryBenchmarks>();
 
 
             Console.WriteLine("END");
