@@ -11,6 +11,7 @@ namespace BenchmarkLinqPerformance
 
             //var summary = BenchmarkRunner.Run<LinqTests>();
             var summary = BenchmarkRunner.Run<ArraryBenchmarks>();
+            //var summary = BenchmarkRunner.Run<StackAllocBenchmark>();
 
 
             Console.WriteLine("END");
